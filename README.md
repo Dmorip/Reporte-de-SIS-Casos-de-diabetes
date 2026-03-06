@@ -38,9 +38,8 @@ Mediante expresiones de agregación de Spark (`groupBy`, `agg`, `when`), el proy
 Este código está diseñado para ser copiado y ejecutado modularmente como un **Notebook nativo de Databricks**.
 
 1. Levanta un clúster (Compute) estándar en Databricks.
-2. Copia el código de `src/diabetes_portafolio.py` en distintas celdas delimitadas por el comentario `# COMMAND ----------`.
+2. Copia el código de `Reporte_diabetes.py` en distintas celdas delimitadas por el comentario `# COMMAND ----------`.
 3. Asegúrate de poseer la tabla fuente de datos sanitarios montada en tu entorno (ej. `workspace.default.pacientes_diabetes`).
-4. **Ejecuta la celda de limpieza una sola vez.** El script emplea buenas prácticas haciendo `.cache()` del DataFrame limpio, asegurando que las posteriores 8 celdas de consultas se resuelvan en fracción de segundos usando la memoria RAM del clúster.
 
 ---
 
