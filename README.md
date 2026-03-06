@@ -17,13 +17,13 @@ El objetivo principal es responder a preguntas de negocio del rubro de Salud Pú
 
 A continuación, se presentan algunas de las salidas y visualizaciones extraídas directamente mediante la función `display()` de Databricks, comprobando la eficacia del ETL y de las consultas a nivel Big Data.
 
-![Procesamiento Inicial y Limpieza](img/evidencia_01.png)
+![Procesamiento Inicial y Limpieza](evidencia_01.png)
 *Vista de los datos crudos del catálogo de Unity convertidos y estructurados con PySpark (Transformación de esquemas de fecha).*
 
-![Agrupaciones Epidemiológicas](img/evidencia_02.png)
+![Agrupaciones Epidemiológicas](evidencia_02.png)
 *Agregaciones SQL avanzadas utilizadas para obtener la edad médica promedio por tipo clínico de diabetes y el cruce de comorbilidades (hipertensión) para millones de registros.*
 
-![Consultas Dinámicas en Memoria](img/evidencia_03.png)
+![Consultas Dinámicas en Memoria](evidencia_03.png)
 *Una vez ejecutado el `.cache()` del DataFrame limpio, las consultas agregadas por múltiples dimensiones sociológicas se procesan instantáneamente en el clúster.*
 
 ---
